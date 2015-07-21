@@ -1,0 +1,122 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "id": "/",
+  "type": "object",
+  "properties": {
+    "meta": {
+      "id": "meta",
+      "type": "object",
+      "properties": {
+        "status": {
+          "id": "status",
+          "type": "integer"
+        }
+      },
+      "required": [
+        "status"
+      ]
+    },
+    "data": {
+      "id": "data",
+      "type": "array",
+      "items": {
+        "id": "19",
+        "type": "object",
+        "properties": {
+          "is_common": {
+            "id": "is_common",
+            "type": "boolean"
+          },
+          "tags": {
+            "id": "tags",
+            "type": "array",
+            "items": {}
+          },
+          "japanese": {
+            "id": "japanese",
+            "type": "array",
+            "items": {
+              "id": "0",
+              "type": "object",
+              "properties": {
+                "word": {
+                  "id": "word",
+                  "type": "string"
+                },
+                "reading": {
+                  "id": "reading",
+                  "type": "string"
+                }
+              }
+            }
+          },
+          "senses": {
+            "id": "senses",
+            "type": "array",
+            "items": {
+              "id": "0",
+              "type": "object",
+              "properties": {
+                "english_definitions": {
+                  "id": "english_definitions",
+                  "type": "array",
+                  "items": {
+                    "id": "1",
+                    "type": "string"
+                  }
+                },
+                "parts_of_speech": {
+                  "id": "parts_of_speech",
+                  "type": "array",
+                  "items": {
+                    "id": "0",
+                    "type": "string"
+                  }
+                },
+                "links": {
+                  "id": "links",
+                  "type": "array",
+                  "items": {}
+                },
+                "tags": {
+                  "id": "tags",
+                  "type": "array",
+                  "items": {}
+                },
+                "restrictions": {
+                  "id": "restrictions",
+                  "type": "array",
+                  "items": {}
+                },
+                "see_also": {
+                  "id": "see_also",
+                  "type": "array",
+                  "items": {}
+                },
+                "antonyms": {
+                  "id": "antonyms",
+                  "type": "array",
+                  "items": {}
+                },
+                "source": {
+                  "id": "source",
+                  "type": "array",
+                  "items": {}
+                },
+                "info": {
+                  "id": "info",
+                  "type": "array",
+                  "items": {}
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "required": [
+    "meta",
+    "data"
+  ]
+}
